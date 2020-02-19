@@ -19,5 +19,9 @@ export default defineMessages({
   address: {
     id: `%{scope}.address`,
     defaultMessage: "1234 Fake Circ Springfield, Colobraska",
+  },
+  newReleases: {
+    id: `%{scope}.newRelease`,
+    defaultMessage: "DISPLAY COMING SOON, Carousel /w left, right arrows",
   }
 });
