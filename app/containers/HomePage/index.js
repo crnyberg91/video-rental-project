@@ -23,6 +23,9 @@ export default function HomePage() {
       <div>
         <FormattedMessage {...messages.address} />
       </div>
+      <div className="new-release-container">
+        <FormattedMessage {...messages.newReleases} />
+      </div>
     </Container>
   );
 }
