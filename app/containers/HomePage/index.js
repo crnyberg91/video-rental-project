@@ -10,6 +10,7 @@ import { FormattedMessage } from 'react-intl';
 import messages from './messages';
 import { Container } from 'react-bootstrap';
 import './homepage-style.css';
+import ControlledCarousel from '../../components/Carousel/Carousel';
 
 export default function HomePage() {
   return (
@@ -26,6 +27,7 @@ export default function HomePage() {
       <div className="new-release-container">
         <FormattedMessage {...messages.newReleases} />
       </div>
+      <ControlledCarousel />
     </Container>
   );
 }
