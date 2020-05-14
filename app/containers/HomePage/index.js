@@ -12,10 +12,12 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container } from 'react-bootstrap';
 import './homepage-style.css';
 import MovieCarousel from '../../components/Carousel/Carousel';
+import CardRow from '../../components/CardRow/CardRow';
+import MovieCard from '../../components/MovieCard/MovieCard';
 
 export default function HomePage() {
   return (
-    <Container className='red'>
+    <Container className='homePageContainer'>
       <MovieCarousel />
       <h1>
         <FormattedMessage {...messages.header} />
@@ -27,7 +29,8 @@ export default function HomePage() {
         <FormattedMessage {...messages.address} />
       </div>
       <div className="new-release-container">
-        <FormattedMessage {...messages.newReleases} />
+        {/* <FormattedMessage {...messages.newReleases} /> */}
+        <CardRow><MovieCard /></CardRow>
       </div>
     </Container>
   );
