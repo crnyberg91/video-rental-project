@@ -16,6 +16,7 @@ import MovieCarousel from '../../components/Carousel/Carousel';
 export default function HomePage() {
   return (
     <Container className='red'>
+      <MovieCarousel />
       <h1>
         <FormattedMessage {...messages.header} />
       </h1>
@@ -28,7 +29,6 @@ export default function HomePage() {
       <div className="new-release-container">
         <FormattedMessage {...messages.newReleases} />
       </div>
-      <MovieCarousel />
     </Container>
   );
 }

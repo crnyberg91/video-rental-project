@@ -9,7 +9,7 @@ function MovieCarousel() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="https://cdn.cinematerial.com/p/297x/haeorwgk/1917-british-movie-poster-md.jpg?v=1579166770"
+          src="https://i0.wp.com/www.theartsshelf.com/wp-content/uploads/2019/11/71688301_2238284169614968_7983414201110495232_o.png?fit=1640%2C720&ssl=1"
           alt="First slide"
         />
         <Carousel.Caption>
@@ -20,7 +20,7 @@ function MovieCarousel() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="https://cdn.cinematerial.com/p/297x/haeorwgk/1917-british-movie-poster-md.jpg?v=1579166770"
+          src="https://i0.wp.com/www.theartsshelf.com/wp-content/uploads/2019/11/71688301_2238284169614968_7983414201110495232_o.png?fit=1640%2C720&ssl=1"
           alt="Third slide"
         />
 
@@ -32,7 +32,7 @@ function MovieCarousel() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="https://cdn.cinematerial.com/p/297x/haeorwgk/1917-british-movie-poster-md.jpg?v=1579166770"
+          src="https://i0.wp.com/www.theartsshelf.com/wp-content/uploads/2019/11/71688301_2238284169614968_7983414201110495232_o.png?fit=1640%2C720&ssl=1"
           alt="Third slide"
         />
 

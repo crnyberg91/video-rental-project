@@ -22,6 +22,6 @@ export default defineMessages({
   },
   newReleases: {
     id: `%{scope}.newRelease`,
-    defaultMessage: "DISPLAY COMING SOON, Carousel /w left, right arrows",
+    defaultMessage: "Movie Cards sorted by rows, on hover to provide synopsis",
   }
 });
